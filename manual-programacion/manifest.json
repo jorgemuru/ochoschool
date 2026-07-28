@@ -1,0 +1,20 @@
+{
+  "title": "Manual Técnico de Programación OchoSchool",
+  "edition": "Final actualizada Jul26",
+  "baseline": {
+    "api": "ochoschool.apirest(13)",
+    "website": "ochoschool.website(15)",
+    "app": "pft2025app(13)"
+  },
+  "static": true,
+  "github_pages_compatible": true,
+  "footer": "@Jorge Martinez | Jul26",
+  "inventory": {
+    "api_java": 143,
+    "website_java": 77,
+    "kotlin": 65,
+    "rest_endpoints": 168,
+    "xhtml": 56,
+    "android_layouts": 27
+  }
+}
