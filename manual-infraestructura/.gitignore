@@ -1,0 +1,17 @@
+# Sistema y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.tmp
+*.bak
+*~
+
+# Información sensible
+privado/
+secretos/
+backups/
+config-original/
+*.rsc
+*.backup
+.env

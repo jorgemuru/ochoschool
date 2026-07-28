@@ -1,15 +1,19 @@
-# Manual Técnico de Programación — OchoSchool
+# Manual Técnico 8SOFT
 
-Sitio HTML estático y compatible con GitHub Pages.
+Portal de documentación técnica del Proyecto Final de Titulación OchoSchool.
 
 ## Contenido
 
-- `index.html`: manual completo y autocontenido, salvo Font Awesome cargado desde CDN.
+Red, GNS3, MikroTik, VLAN, VPN, Active Directory, DNS, DHCP, GPO, Oracle, IIS, Ubuntu, WildFly, Website JSF, API REST, JWT, LDAP, Zabbix, despliegue, mantenimiento y troubleshooting.
 
-## Versiones documentadas
+## Abrir localmente
 
-- API REST: `ochoschool.apirest(11)`
-- Website: `ochoschool.website(13)`
-- APP Android: `pft2025app(11)`
+```bash
+python3 -m http.server 8000
+```
 
-@Jorge Martinez | Jul26
+Luego visite `http://localhost:8000`.
+
+## Seguridad
+
+Este repositorio contiene solo ejemplos sanitizados. No agregue contraseñas, secretos JWT, claves VPN, comunidades SNMP ni configuraciones originales.

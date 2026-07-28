@@ -1,0 +1,19 @@
+WILDFLY
+sudo systemctl status wildfly
+tail -f $WILDFLY_HOME/standalone/log/server.log
+
+RED
+ip address
+ip route
+resolvectl status
+
+WINDOWS
+gpupdate /force
+gpresult /r
+
+ORACLE
+lsnrctl status
+
+GITHUB PAGES
+python3 -m http.server 8000
+git add . && git commit -m "Actualizar documentación" && git push

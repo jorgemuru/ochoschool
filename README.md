@@ -1,23 +1,19 @@
-# Documentación Técnica — Proyecto OchoSchool
+# Documentación Técnica OchoSchool
 
-Repositorio estático que centraliza el acceso a los dos manuales técnicos del proyecto.
+Portal unificado de documentación técnica del Proyecto OchoSchool.
 
-## Estructura
+## Contenido
 
-- `index.html`: portada principal del repositorio documental.
-- `manual-programacion/`: edición final actualizada del Manual Técnico de Programación.
-- `manual-infraestructura/`: edición de Infraestructura proporcionada.
-- `.nojekyll`: evita el procesamiento de Jekyll en GitHub Pages.
+- `index.html`: portada del repositorio documental.
+- `manual-programacion/`: Manual Técnico de Programación.
+- `manual-infraestructura/`: Manual Técnico de Infraestructura.
 
-## Publicar en GitHub Pages
+## Publicación en GitHub Pages
 
-1. Crear un repositorio nuevo en GitHub.
-2. Subir **todo el contenido** de esta carpeta a la rama `main`.
-3. Abrir **Settings → Pages**.
-4. En **Build and deployment**, seleccionar **Deploy from a branch**.
-5. Elegir la rama `main` y la carpeta `/ (root)`.
-6. Guardar y esperar a que GitHub muestre la URL pública.
+1. Subir todo el contenido de esta carpeta a la rama `main` del repositorio.
+2. Abrir **Settings → Pages**.
+3. En **Build and deployment**, seleccionar **Deploy from a branch**.
+4. Elegir la rama `main` y la carpeta `/ (root)`.
+5. Guardar y esperar la publicación.
 
-No requiere compilación, servidor web, base de datos ni configuración adicional.
-
-(R) 2026 | Grupo Ochosoft | Jorge Martinez
+La portada estará disponible en la URL asignada por GitHub Pages.
